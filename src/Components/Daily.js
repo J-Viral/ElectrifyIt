@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Datepicker, Label, Table } from "flowbite-react";
+import { Button, Label, Table } from "flowbite-react";
 
 function Daily() {
   const [vehicleInfo, setVehicleInfo] = useState([]);
