@@ -19,9 +19,6 @@ const Dashboard = () => {
         <Tabs.Item title="Monthly" icon={HiAdjustments}>
           <Month />
         </Tabs.Item>
-        <Tabs.Item title="Yearly" icon={HiClipboardList}>
-          <Year />
-        </Tabs.Item>
       </Tabs>
     </div>
   );
