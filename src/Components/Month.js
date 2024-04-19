@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Button, Datepicker, Label, Select, Table } from "flowbite-react";
+import { Button, Label, Select, Table } from "flowbite-react";
 
 function Month() {
   const months = [
