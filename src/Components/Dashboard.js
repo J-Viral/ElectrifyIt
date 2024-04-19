@@ -4,12 +4,12 @@ import { MdDashboard } from "react-icons/md";
 import Daily from "./Daily";
 import Weekly from "./Weekly";
 import Month from "./Month";
-import Year from "./Year";
+
 
 const Dashboard = () => {
   return (
     <div className=" m-6">
-      <Tabs aria-label="Tabs with underline" style="underline">
+      <Tabs aria-label="Tabs with underline">
         <Tabs.Item active title="Daily" icon={HiUserCircle}>
           <Daily />
         </Tabs.Item>
