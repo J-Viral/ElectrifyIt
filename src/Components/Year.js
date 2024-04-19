@@ -10,7 +10,7 @@ function Year() {
   const [errorMsg, setErrorMsg] = useState();
 
   const onSubmit = async () => {
-    console.log(dateEnd, dateStart);
+    //console.log(dateEnd, dateStart);
     try {
       const response = await fetch(
         `https://electric-vehicle-report-api.onrender.com/get-yearly-report/?year=${year}`,
